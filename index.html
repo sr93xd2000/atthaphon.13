@@ -1,0 +1,56 @@
+<html>
+    <head>
+<style>
+    body{
+        background-color: skyblue;
+        line-height: 30px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+        width: 800px;
+        margin-left: 100px;
+    }
+    #form{
+    background-color:honeydew;
+    margin-top: 5%;
+    padding: 25px;
+    box-shadow: 0px 0px 20px 1px gray;
+    }
+    input{
+        height: 50px;
+        width: 100%;
+        border: none;
+    }
+    button{
+        background-color: skyblue;
+        height: 50px;
+        width: 150px;
+        border-radius: 30px;
+    }
+    button:focus {
+        outline: none;
+        transform: scale(0.9);
+    }
+     button:hover{
+            box-shadow: 2px 2px 20px 1px gray;
+    }
+</style>
+    </head>
+    <body>
+        <div class="Container">
+          <form action="" method="POST" id="form">
+            <center><h1 style="font-size: 48px;">Contact Us</h1></center>
+            <input type="text" placeholder="Name" required><br><br>
+            <input type="email" placeholder="Email" required><br><br>
+            <input type="tel" placeholder="Mobile Number" required><br><br>
+            <textarea placeholder="Type your meassage here" style="height: 180px; width: 750px;"></textarea><br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </form>
+        </div>
+    </body>
+    <footer>
+      
+  </footer>
+</html>
